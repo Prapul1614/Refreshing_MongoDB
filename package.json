@@ -1,0 +1,26 @@
+{
+  "name": "api_with_nodejs_and_mongodb_using_fastify",
+  "version": "1.0.0",
+  "description": "\"NodeJS, MongoDB, Fastify\"",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Prapul\"",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.27.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@types/node": "^20.12.13",
+    "eslint": "9.x",
+    "globals": "^15.3.0",
+    "tsx": "^4.11.0",
+    "typescript-eslint": "^7.11.0"
+  }
+}
