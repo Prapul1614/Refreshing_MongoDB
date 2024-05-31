@@ -1,5 +1,8 @@
 import mongoose, { Schema } from "mongoose";
 
+// import mongooseSchemaJsonschema from 'mongoose-schema-jsonschema';
+// mongooseSchemaJsonschema(mongoose);
+
 const schema = mongoose.Schema;
 
 export const UserSchema = new schema({
@@ -35,3 +38,5 @@ export interface UserInterface{
     likes: Array<Schema.Types.ObjectId>,
     comments: Array<Schema.Types.ObjectId>
 }
+
+// export const UserJSONSchema = UserSchema.jsonSchema();
